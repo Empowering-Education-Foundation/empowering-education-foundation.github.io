@@ -213,3 +213,9 @@ nav.navbar {
   color: #333;
   line-height: 1.6;
 }
+
+.white-section {
+  background-color: white;
+  padding: 60px 0;
+}
+
