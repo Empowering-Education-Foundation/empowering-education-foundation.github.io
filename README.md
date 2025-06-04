@@ -23,3 +23,35 @@
 		<h5> A cultural immersion program connecting developing countries of the world together under a common cause. </h5>
 	</body>
 </html>
+
+<div class="container">
+      <a class="navbar-brand" href="/">Empowering Education Foundation</a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="true" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+    <div class="navbar-collapse collapse show" id="navbar" style="">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href="application.html">Application</a>
+        </li>
+        <li class="nav-item">
+          <a href="curriculum.html">Curriculum</a>
+        </li>
+        <li class="nav-item">
+          <a href="future.html">Future</a>
+        </li>
+        <li class="nav-item">
+          <a href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="initiatives.html">Initiatives</a>
+        </li>
+        <li class="nav-item">
+          <a href="tutoring.html">Tutoring</a>
+        </li>
+	<li class="nav-item">
+          <a href="staff.html">Staff</a>
+        </li>
+      </ul>
+    </div>
+  </div>
