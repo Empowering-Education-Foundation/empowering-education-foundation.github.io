@@ -64,7 +64,7 @@
   <body style="background-color:white;">
     <div class="navbar">
       <div class="dropdown">
-        <button class="dropbtn">Dropdown
+        <button class="dropbtn">Empowering Education Foundation
           <i class="fa fa-caret-down"></i>
         </button>
         <div class="dropdown-content">
