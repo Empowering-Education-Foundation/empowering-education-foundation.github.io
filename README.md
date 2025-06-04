@@ -1,6 +1,5 @@
 # empowering-education-foundation.github.io
 
-<!DOCTYPE html>
 <!--
 <html>
 	<head>
@@ -57,6 +56,10 @@
     </div>
   </div>
 -->
+
+
+
+<!DOCTYPE html>
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
