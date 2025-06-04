@@ -1,5 +1,26 @@
 # empowering-education-foundation.github.io
 
+<!DOCTYPE html>
+<html>
+	<head>
+		###
+	</head>
+	<body>
+		<div class="navbar">
+			<a href="curriculum.html">Curriculum</a>
+			<a href="application.html">Application</a>
+			<div class="dropdown">
+				<button class="dropbtn">Dropdown
+					<i class="fa fa-caret-down"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href
+	</body>
+</html>
+
+
+
+
 <!--
 <html>
 	<head>
@@ -59,25 +80,3 @@
 
 
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<title>Empowering Education Foundation</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
-	<body>
-		<header>
-			<div class="menu-icon" onclick="toggleMenu()">☰</div>
-			<nav id="nav-menu">
-				<a href="index.html">Home</a>
-				<a href="index.html">Home</a>
-				<a href="index.html">Home</a>
-			</nav>
-		</header>
-		<main>
-			<h1>Hello</h1>
-			<p>Hello</p>
-		</main>
-	</body>
- </html>
