@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Empowering Education Foundation</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <!-- Professional Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -16,16 +16,17 @@
     <style>
       body {
         margin: 0;
-        font-family: 'Poppins', sans-serif;
-        background-color: #f0f4f8;
+        font-family: 'Inter', sans-serif;
+        background-color: #f9fafb;
+        color: #333;
       }
 
       nav.navbar {
-        background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+        background-color: #1e3a8a; /* deep blue */
         display: flex;
         justify-content: flex-start;
         padding: 0 24px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
       }
 
       .dropdown {
@@ -33,23 +34,21 @@
       }
 
       .dropbtn {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 600;
         color: white;
         background: transparent;
         border: none;
-        padding: 18px 24px;
+        padding: 16px 20px;
         cursor: pointer;
         display: flex;
         align-items: center;
-        gap: 10px;
-        transition: background-color 0.3s ease, transform 0.2s ease;
-        border-radius: 10px;
+        gap: 8px;
+        transition: background-color 0.2s ease;
       }
 
       .dropbtn:hover {
-        background-color: rgba(255, 255, 255, 0.15);
-        transform: scale(1.03);
+        background-color: rgba(255, 255, 255, 0.1);
       }
 
       .dropdown-content {
@@ -58,26 +57,24 @@
         top: 100%;
         left: 0;
         background: white;
-        min-width: 220px;
-        border-radius: 12px;
-        margin-top: 8px;
-        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-        overflow: hidden;
+        min-width: 200px;
+        border-radius: 4px;
+        margin-top: 4px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
         z-index: 1000;
       }
 
       .dropdown-content a {
-        color: #333;
-        padding: 14px 20px;
+        color: #1f2937;
+        padding: 12px 18px;
         text-decoration: none;
         display: block;
-        transition: background-color 0.25s ease, padding-left 0.2s ease;
         font-weight: 500;
+        transition: background-color 0.2s ease;
       }
 
       .dropdown-content a:hover {
-        background-color: #f0f0f0;
-        padding-left: 28px;
+        background-color: #f3f4f6;
       }
 
       .dropdown:hover .dropdown-content {
@@ -85,15 +82,15 @@
       }
 
       .fa-caret-down {
-        font-size: 14px;
+        font-size: 13px;
       }
     </style>
   </head>
 
   <body>
-    <nav class="navbar">
+    <nav class="navbar" role="navigation">
       <div class="dropdown">
-        <button class="dropbtn">
+        <button class="dropbtn" aria-haspopup="true" aria-expanded="false">
           Empowering Education Foundation
           <i class="fa fa-caret-down"></i>
         </button>
