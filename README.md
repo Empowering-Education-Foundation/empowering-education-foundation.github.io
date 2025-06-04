@@ -9,7 +9,6 @@
 		<nav>
 		  <ul>
 		    <li><a href="application.html">Application</a></li>
-		    <li><a href="home.html">Home</a></li>
 		    <li><a href="curriculum.html">Curriculum</a></li>
 		    <li><a href="future.html">Future</a></li>
 		    <li><a href="gallery.html">Gallery</a></li>
