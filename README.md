@@ -1,6 +1,7 @@
 # empowering-education-foundation.github.io
 
 <!DOCTYPE html>
+<!--
 <html>
 	<head>
 		<link rel="stylesheet" href="style.css">
@@ -55,34 +56,25 @@
       </ul>
     </div>
   </div>
-
-<!DOCTYPE html>
+-->
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <div class="menu-icon" onclick="toggleMenu()">☰</div>
-    <nav id="nav-menu">
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <h1>Welcome to My Website</h1>
-    <p>This is the homepage.</p>
-  </main>
-
-  <script>
-    function toggleMenu() {
-      const nav = document.getElementById("nav-menu");
-      nav.classList.toggle("active");
-    }
-  </script>
-</body>
-</html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Empowering Education Foundation</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<header>
+			<div class="menu-icon" onclick="toggleMenu()">☰</div>
+			<nav id="nav-menu">
+				<a href="index.html">Home</a>
+				<a href="index.html">Home</a>
+				<a href="index.html">Home</a>
+			</nav>
+		</header>
+		<main>
+			<h1>Hello</h1>
+			<p>Hello</p>
+		</main>
+	</body>
+ </html>
