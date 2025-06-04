@@ -77,6 +77,69 @@
     .social-icons a:hover {
       color: #1e3a8a;
     }
+    nav.navbar {
+      background-color: #1e3a8a; /* deep blue */
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 24px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .dropdown {
+      position: relative;
+    }
+
+    .dropbtn {
+      font-size: 17px;
+      font-weight: 600;
+      color: white;
+      background: transparent;
+      border: none;
+      padding: 16px 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background-color 0.2s ease;
+    }
+
+    .dropbtn:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: white;
+      min-width: 200px;
+      border-radius: 4px;
+      margin-top: 4px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+      z-index: 1000;
+    }
+
+    .dropdown-content a {
+      color: #1f2937;
+      padding: 12px 18px;
+      text-decoration: none;
+      display: block;
+      font-weight: 500;
+      transition: background-color 0.2s ease;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f3f4f6;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .fa-caret-down {
+      font-size: 13px;
+    }
   </style>
 </head>
 <body>
