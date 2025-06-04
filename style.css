@@ -188,3 +188,28 @@ nav.navbar {
   margin-bottom: 24px;
 }
 
+.info-section {
+  background-color: white;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-content {
+  max-width: 800px;
+  text-align: center;
+}
+
+.info-content h2 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1e3a34;
+}
+
+.info-content p {
+  font-size: 1.05rem;
+  color: #333;
+  line-height: 1.6;
+}
