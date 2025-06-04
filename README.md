@@ -8,7 +8,7 @@
 	<body>
 		<div class="navbar">
 			<a href="curriculum.html">Curriculum</a>
-			<a href="application.html">Application</a>
+			<a href="future.html">Future</a>
 			<div class="dropdown">
 				<button class="dropbtn">Dropdown
 					<i class="fa fa-caret-down"></i>
