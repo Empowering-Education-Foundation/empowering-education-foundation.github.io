@@ -1,110 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Empowering Education Foundation</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Empowering Education Foundation</title>
 
-    <!-- Professional Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet" />
+  <!-- Font Awesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
-    <style>
-      body {
-        margin: 0;
-        font-family: 'Inter', sans-serif;
-        background-color: #f9fafb;
-        color: #333;
-      }
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #f9fafb;
+      color: #333;
+    }
 
-      nav.navbar {
-        background-color: #1e3a8a; /* deep blue */
-        display: flex;
-        justify-content: flex-start;
-        padding: 0 24px;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
-      }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 32px;
+      background-color: white;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
 
-      .dropdown {
-        position: relative;
-      }
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
 
-      .dropbtn {
-        font-size: 17px;
-        font-weight: 600;
-        color: white;
-        background: transparent;
-        border: none;
-        padding: 16px 20px;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        transition: background-color 0.2s ease;
-      }
+    .logo-container img {
+      height: 50px;
+      width: auto;
+    }
 
-      .dropbtn:hover {
-        background-color: rgba(255, 255, 255, 0.1);
-      }
+    .logo-container span {
+      font-size: 18px;
+      font-weight: bold;
+      color: #374151;
+    }
 
-      .dropdown-content {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        background: white;
-        min-width: 200px;
-        border-radius: 4px;
-        margin-top: 4px;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
-        z-index: 1000;
-      }
+    .right-menu {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
 
-      .dropdown-content a {
-        color: #1f2937;
-        padding: 12px 18px;
-        text-decoration: none;
-        display: block;
-        font-weight: 500;
-        transition: background-color 0.2s ease;
-      }
+    .contact-btn {
+      background-color: #1e3a34;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 9999px;
+      font-size: 15px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
 
-      .dropdown-content a:hover {
-        background-color: #f3f4f6;
-      }
+    .contact-btn:hover {
+      background-color: #16302a;
+    }
 
-      .dropdown:hover .dropdown-content {
-        display: block;
-      }
+    .social-icons a {
+      color: #333;
+      text-decoration: none;
+      font-size: 16px;
+      margin-left: 8px;
+      transition: color 0.2s ease;
+    }
 
-      .fa-caret-down {
-        font-size: 13px;
-      }
-    </style>
-  </head>
+    .social-icons a:hover {
+      color: #1e3a8a;
+    }
+    nav.navbar {
+      background-color: #1e3a8a; /* deep blue */
+      display: flex;
+      justify-content: flex-start;
+      padding: 0 24px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
 
-  <body>
-    <nav class="navbar" role="navigation">
-      <div class="dropdown">
-        <button class="dropbtn" aria-haspopup="true" aria-expanded="false">
-          Empowering Education Foundation
-          <i class="fa fa-caret-down"></i>
-        </button>
-        <div class="dropdown-content">
-          <a href="index.html">Home</a>
-          <a href="application.html">Application</a>
-          <a href="curriculum.html">Curriculum</a>
-          <a href="future.html">Future</a>
-          <a href="gallery.html">Gallery</a>
-          <a href="initiatives.html">Initiatives</a>
-          <a href="staff.html">Staff</a>
-          <a href="tutoring.html">Tutoring</a>
+    .dropdown {
+      position: relative;
+    }
+
+    .dropbtn {
+      font-size: 17px;
+      font-weight: 600;
+      color: white;
+      background: transparent;
+      border: none;
+      padding: 16px 20px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      transition: background-color 0.2s ease;
+    }
+
+    .dropbtn:hover {
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: white;
+      min-width: 200px;
+      border-radius: 4px;
+      margin-top: 4px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+      z-index: 1000;
+    }
+
+    .dropdown-content a {
+      color: #1f2937;
+      padding: 12px 18px;
+      text-decoration: none;
+      display: block;
+      font-weight: 500;
+      transition: background-color 0.2s ease;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f3f4f6;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .fa-caret-down {
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo-container">
+      <nav class="navbar" role="navigation">
+        <div class="dropdown">
+          <button class="dropbtn" aria-haspopup="true" aria-expanded="false">
+            ☰
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="index.html">Home</a>
+            <a href="application.html">Application</a>
+            <a href="curriculum.html">Curriculum</a>
+            <a href="future.html">Future</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="initiatives.html">Initiatives</a>
+            <a href="staff.html">Staff</a>
+            <a href="tutoring.html">Tutoring</a>
+          </div>
         </div>
+      </nav>
+      <img src="banner.png" alt="Empowering Education Foundation Logo" />
+      <span>Empowering Education Foundation</span>
+    </div>
+
+    <div class="right-menu">
+      <button class="contact-btn">Contact Us</button>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
       </div>
-    </nav>
-  </body>
+    </div>
+  </header>
+
+</body>
 </html>
