@@ -130,41 +130,61 @@ nav.navbar {
 
 .button {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 12px 24px;
   font-size: 15px;
   font-weight: 500;
   border-radius: 9999px;
   border: none;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+  transition: background-color 0.3s ease;
   text-align: center;
 }
 
 .button-primary {
-  background-color: #1e3a34;
+  background-color: #000;
   color: white;
 }
 
 .button-primary:hover {
-  background-color: #16302a;
+  background-color: #333;
 }
 
-.button-secondary {
-  background-color: #f3f4f6;
+.hero-section {
+  background-image: url('eefpic.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.hero-content {
+  background-color: #fbbf24; /* Warm yellow */
+  padding: 40px;
+  max-width: 700px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.hero-content h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.hero-content .subtitle {
+  font-size: 1.125rem;
+  margin-bottom: 16px;
   color: #1f2937;
 }
 
-.button-secondary:hover {
-  background-color: #e5e7eb;
+.hero-content .description {
+  font-size: 0.95rem;
+  color: #333;
+  margin-bottom: 24px;
 }
 
-.button-outline {
-  background-color: transparent;
-  color: #1e3a8a;
-  border: 2px solid #1e3a8a;
-}
-
-.button-outline:hover {
-  background-color: #1e3a8a;
-  color: white;
-}
