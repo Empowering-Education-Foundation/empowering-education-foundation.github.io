@@ -219,3 +219,75 @@ nav.navbar {
   padding: 60px 0;
 }
 
+.initiative-section {
+  position: relative;
+  background-color: white;
+  padding: 60px 0;
+}
+
+.initiative-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.initiative-image {
+  flex: 1 1 50%;
+  min-width: 300px;
+}
+
+.initiative-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.initiative-textbox {
+  background-color: white;
+  padding: 40px;
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 450px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.initiative-textbox h2 {
+  color: #F8A932;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.initiative-textbox p {
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.initiative-textbox .btn {
+  background-color: #F8A932;
+  color: white;
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-weight: 600;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .initiative-textbox {
+    position: static;
+    transform: none;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .initiative-wrapper {
+    flex-direction: column;
+  }
+}
+
