@@ -279,6 +279,69 @@ nav.navbar {
   border: none;
 }
 
+.what-we-do {
+  background: #de5b29;
+  background-image: url('background-texture.jpg'); /* Optional: overlay background */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+.what-we-do h2 {
+  font-size: 2.5rem;
+  margin-bottom: 60px;
+  font-weight: bold;
+  color: white;
+}
+
+.wwd-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+.wwd-image {
+  flex: 1 1 400px;
+  max-width: 500px;
+  margin: 10px;
+}
+
+.wwd-image img {
+  width: 100%;
+  border-radius: 4px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+}
+
+.wwd-text {
+  flex: 1 1 300px;
+  max-width: 400px;
+  margin: 10px;
+  color: white;
+  text-align: left;
+}
+
+.wwd-text h3 {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.wwd-text .btn {
+  background-color: white;
+  color: #de5b29;
+  border-radius: 20px;
+  padding: 10px 25px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
 @media (max-width: 768px) {
   .initiative-textbox {
     position: static;
@@ -288,6 +351,12 @@ nav.navbar {
   }
   .initiative-wrapper {
     flex-direction: column;
+  }
+  .wwd-row {
+    flex-direction: column;
+  }
+  .wwd-text {
+    text-align: center;
   }
 }
 
