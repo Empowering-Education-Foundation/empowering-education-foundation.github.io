@@ -1,117 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>What We Do Section</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Accessible Education Form</title>
     <style>
       body {
         margin: 0;
-        font-family: 'Georgia', serif;
+        font-family: Arial, sans-serif;
+        background-color: #45b8ac;
       }
-  
-      .what-we-do {
-        background: #de5b29;
-        background-size: cover;
-        background-position: center;
-        color: white;
-        padding: 80px 20px;
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #45b8ac;
+        padding: 30px;
+        color: #000;
+      }
+      h1 {
+        text-align: center;
+        font-weight: bold;
+      }
+      p {
         text-align: center;
       }
-  
-      .what-we-do h2 {
-        font-size: 2.5rem;
-        margin-bottom: 60px;
-        font-weight: bold;
-        color: white;
-      }
-  
-      .wwd-row {
+      form {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-bottom: 80px;
+        flex-direction: column;
+        gap: 20px;
       }
-  
-      .wwd-image {
-        flex: 1 1 400px;
-        max-width: 500px;
-        margin: 10px;
-      }
-  
-      .wwd-image img {
-        width: 100%;
-        border-radius: 4px;
-        box-shadow: 0 10px 15px rgba(0,0,0,0.2);
-      }
-  
-      .wwd-text {
-        flex: 1 1 300px;
-        max-width: 400px;
-        margin: 10px;
-        color: white;
-        text-align: left;
-      }
-  
-      .wwd-text h3 {
-        font-size: 1.3rem;
-        margin-bottom: 20px;
-        font-weight: 500;
-      }
-  
-      .wwd-text .btn {
-        background-color: white;
-        color: #de5b29;
-        border-radius: 20px;
-        padding: 10px 25px;
+      label {
         font-weight: bold;
-        text-decoration: none;
-        display: inline-block;
-        margin-top: 10px;
+        margin-bottom: 5px;
       }
-  
-      @media (max-width: 768px) {
-        .wwd-row {
-          flex-direction: column;
-        }
-  
-        .wwd-text {
-          text-align: center;
-        }
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #000;
+        border-radius: 3px;
+        font-size: 1rem;
+      }
+      .form-row {
+        display: flex;
+        gap: 20px;
+      }
+      .form-row > div {
+        flex: 1;
+      }
+      button {
+        width: 100px;
+        padding: 10px;
+        background-color: #000;
+        color: #fff;
+        border: none;
+        border-radius: 25px;
+        font-size: 1rem;
+        align-self: flex-end;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #333;
       }
     </style>
   </head>
   <body>
-    <div class="what-we-do">
-      <h2>What Do We Do?</h2>
-      <div class="wwd-row">
-        <div class="wwd-image">
-          <img src="FP1.jpg" alt="Tutoring / Cultural Immersion">
+    <div class="container">
+      <h1>Let's Reach this Goal of Accessible Education Together</h1>
+      <p>We're looking forward to hearing from you.</p>
+      <form>
+        <div class="form-row">
+          <div>
+            <label for="firstName">First Name*</label>
+            <input type="text" id="firstName" name="firstName" required>
+          </div>
+          <div>
+            <label for="lastName">Last Name*</label>
+            <input type="text" id="lastName" name="lastName" required>
+          </div>
         </div>
-        <div class="wwd-text">
-          <h3>Tutoring / Cultural Immersion</h3>
-          <a href="#" class="btn">Learn More</a>
+        <div>
+          <label for="email">Email*</label>
+          <input type="email" id="email" name="email" required>
         </div>
-      </div>
-      <div class="wwd-row">
-        <div class="wwd-text">
-          <h3>Curriculum Development / Accessibility</h3>
-          <a href="#" class="btn">Learn More</a>
+        <div>
+          <label for="message">Message*</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
         </div>
-        <div class="wwd-image">
-          <img src="FP2.jpg" alt="Curriculum Development / Accessibility">
-        </div>
-      </div>
-      <div class="wwd-row">
-        <div class="wwd-image">
-          <img src="FP4.jpg" alt="Our Gallery">
-        </div>
-        <div class="wwd-text">
-          <h3>Our Gallery</h3>
-          <a href="#" class="btn">Learn More</a>
-        </div>
-      </div>
+        <button type="submit">Submit</button>
+      </form>
     </div>
   </body>
 </html>
